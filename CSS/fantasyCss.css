@@ -1,0 +1,261 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.left {
+    width: 25%;
+    height: 100%;
+    border-right: 3px solid grey;
+    float: left;
+    overflow-y: hidden;
+}
+.main {
+    width: 100%;
+    height: 85%;
+    margin: 0;
+}
+.right {
+    background: url("../images/background_images/football_pitch.jpg") no-repeat center center fixed;
+    width: 75%;
+    height: 100%;
+    float: right;
+    -webkit-background-size: cover;
+    background-size: cover;
+    margin: 0;
+}
+.selection-menu {
+    width: 95%;
+    height: 95%;
+    background-color: #38003c;
+    margin: 8px;
+    border-radius: 5px;
+    color: white;
+    overflow: hidden;
+}
+.team-name-label {
+    margin: 20px auto;
+    font-size: 20px;
+}
+.team-info {
+    text-align: center;
+}
+.selection-menu input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.selection-menu label {
+    margin: 10px 5px;
+    font-size: 20px;
+}
+.selection-menu button {
+    padding: 12px 20px;
+    color: white;
+    background-color: #e90052;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    -webkit-appearance: none;
+    margin: 0 5px;
+}
+.selection-menu button:hover {
+    border: 1px solid #e90052;
+    background-color: #38003c;
+}
+.player-icon {
+    width: 80px;
+    height: 100px;
+}
+.player-icon-for {
+    width: 80px;
+    height: 100px;
+    margin: 0 50px;
+    float: middle;
+}
+.player-icon-mid {
+    width: 80px;
+    height: 100px;
+    margin: 0 50px;
+    float: left;
+}
+.player-icon-def {
+    width: 80px;
+    height: 100px;
+    margin: 0 60px;
+    float: left;
+}
+.player-icon-gkp {
+    width: 80px;
+    height: 100px;
+    margin: 0;
+}
+.player-container {
+    display: block;
+}
+.fantasy-team-container {
+    width: 85%;
+    height: 85%;
+    margin: 20px;
+    display: block;
+}
+.forward {
+    float: left;
+    margin: 0 50px;
+}
+.forwards {
+    width: 40%;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.midfielder {
+    float: left;
+    margin: 0px 50px;
+}
+.midfielders {
+    width: 80%;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.defender {
+    float: left;
+    margin: 0px 80px;
+}
+.defenders {
+    width: 90%;
+    overflow: hidden;
+    margin: 50px auto;
+}
+.goalkeeper {
+    width: 8%;
+    overflow: hidden;
+    margin: 50px auto;
+}
+input[type=text] {
+    margin: 5px auto;
+    width: 100px;
+    text-align: center;
+}
+.result {
+    position: absolute;
+    z-index: -1;
+    width: 8%;
+    height: 8%;
+    overflow: auto;
+    display: block;
+    background-color:#38003c;
+    color: white;
+    font-size: 14px;
+}
+.player {
+    height: 50%;
+    width: 99%;
+    overflow: hidden;
+}
+.webname {
+    float: left;
+}
+.select-button {
+    float: left;
+    color: white;
+    background-color: #38003c;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+h2 {
+    margin-top: 25px;
+    text-align: center;
+    color:white;
+}
+.log-btn {
+    padding: 13px 26px;
+    color: white;
+    background-color: #38003c;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    -webkit-appearance: none;
+}
+.log-btn:hover {
+    background-color: #e90052;
+}
+.formation-forwards {
+    width: 35%;
+    height: 20%;
+    overflow: hidden;
+    margin: 40px auto;
+    text-align: center;
+}
+.formation-midfielders {
+    width: 65%;
+    height: 20%;
+    overflow: hidden;
+    text-align: center;
+    margin: 30px auto;
+}
+.formation-defenders {
+    width: 70%;
+    height: 20%;
+    overflow: hidden;
+    text-align: center;
+    margin: 30px auto;
+}
+.formation-goalkeeper {
+    width: 13%;
+    height: 20%;
+    overflow: hidden;
+    margin: 30px auto;
+}
+.icon-slot {
+    float: left;
+    width: auto;
+    height: auto;
+}
+.player-name {
+    color: white;
+    background-color: #38003c;
+    font-size: 18px;
+}
+.league-table {
+    margin: 40px 7%;
+    width: 80%;
+    height: auto;
+    border: 2px solid white;
+    border-radius: 3px;
+    overflow: hidden;
+    display: inline-block;
+}
+.league-table label {
+    font-size: 15px;
+}
+.fteam-row, .title-row {
+    width: 100%;
+    height: 8%;
+    border: 1px solid white;
+}
+.fteam-row div, .fteam-row-user div, .title-row div {
+    width: 33%;
+    float: left;
+}
+.fteam-row-user {
+    width: 100%;
+    height: 8%;
+    background-color:#e90052;
+}

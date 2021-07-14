@@ -1,0 +1,338 @@
+.main-container {
+    width: auto;
+    height: 120%;
+}
+
+.top {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 2px solid grey;
+    text-align: center;
+    opacity: 0.95;
+}
+
+.heading {
+    color: #38003c;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.left {
+    float: left;
+    height: 100%;
+    width: 25%;
+    border-right: 2px solid grey;
+    background-color: lightgrey;
+    opacity: 0.9;
+}
+
+.middle {
+    float: left;
+    height: 100%;
+    width: 50%;
+    border-right: 2px solid grey;
+    background-color: white;
+    opacity: 0.95;
+}
+
+.right {
+    position: relative;
+    float: right;
+    height: 100%;
+    width: 25%;
+    background-color: lightgrey;
+    opacity: 0.9;
+}
+
+h3 {
+    margin: 8% 10% 2% 10%;
+}
+
+.pl-table {
+    height: 194px;
+    width: 70%;
+    border: 1px solid grey;
+    margin: 5px auto 0 auto;
+    overflow: hidden;
+    background-color: white;
+    opacity: 1.1;
+    border-bottom: 0;
+    -webkit-box-shadow: 0 0 10px grey;
+    box-shadow: 0 0 10px grey;
+}
+.table-head {
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    background-color: #38003c;
+}
+
+.table-row {
+    display: inline-block;
+    height: 38px;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    vertical-align: middle;
+}
+
+.pos {
+    float: left;
+    width: 10%;
+    overflow: hidden;
+    text-align: left;
+    margin: 12px 7px;
+}
+.team-logo {
+    height: 35px;
+    width: 35px;
+    float: left;
+}
+.club {
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    text-align: left;
+    margin: 8px 7px;
+}
+.played {
+    float: left;
+    width: 10%;
+    overflow: hidden;
+    text-align: left;
+    margin: 12px 20px 0 5px;
+}
+.won, .drawn, .lost {
+    float: left;
+    width: 3.5%;
+    overflow: hidden;
+    text-align: left;
+    margin: 12px 3px;
+}
+.gd {
+    float: left;
+    width: 5%;
+    overflow: hidden;
+    text-align: left;
+    margin: 12px 5px;
+}
+
+.team-logo-img {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+.points {
+    float: right;
+    width: 8%;
+    overflow: hidden;
+    text-align: left;
+    margin: 12px 22px 0 0;
+}
+.head-text {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: lightgrey;
+}
+
+.team-info {
+    margin-left: 10px;
+    font-size: 11px;
+    float: right;
+}
+
+.change-size {
+    float: right;
+    margin-right: 15%;
+}
+.welcome {
+    font-size: 14px;
+    margin: 10px 10%;
+}
+.welcome-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 40px 10% 10px 10%;
+}
+.change-size {
+    width: 10%;
+    height: 2%;
+    color: white;
+    background-color: #38003c;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 14px;
+    -webkit-appearance: none;
+}
+.change-size:hover {
+    background-color: #e90052;
+}
+.fixture-title {
+    margin: 10px auto;
+    text-align: center;
+    font-size: 22px;
+}
+.fixtures-container {
+    border: 2px solid grey;
+    border-radius: 3px;
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    overflow: hidden;
+    background-color: white;
+    color: black;
+}
+.fixture {
+    width: 100%;
+    height: 5%;
+    overflow: hidden;
+    display: inline-block;
+    border-bottom: 1px solid grey;
+}
+.fixture p {
+    float: left;
+    font-size: 14px;
+}
+.tlogo, .tname, .goals {
+    float: left;
+    width: 22%;
+    height: 100%;
+    overflow: hidden;
+}
+.tname {
+    width: 26%;
+}
+
+.goals p {
+    font-size: 18px;
+    margin: 5px auto;
+    color: white;
+}
+
+.goals-home, .goals-away, .seperator {
+    background-color: #38003c;
+}
+
+.goals-home-live, .goals-away-live, .seperator-live {
+    background-color: #e90052;
+}
+
+.game-time {
+    background-color: #38003c;
+}
+
+.tname p {
+    margin: 5px 5px;
+    font-weight: bold;
+}
+
+.tlogo {
+    width: 12%;
+}
+.tweet-pic {
+    width: 45px;
+    height: 45px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.twitter-widget {
+    width: 90%;
+    height: auto;
+    border: 2px solid lightgrey;
+    background-color: white;
+    overflow: hidden;
+    color: black;
+    margin: 15px auto;
+}
+
+.tweet {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.tweet-top {
+    width: 100%;
+    height: 5%;
+    overflow: hidden;
+}
+.tweet-bottom {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.tweet-pic-box {
+    width: 18%;
+    float: left;
+    overflow: hidden;
+}
+.tweet-usr-box {
+    width: 50%;
+    float: left;
+}
+.tweet-usr {
+    margin: 2% 5px;
+    font-weight: bold;
+}
+.tweet-text {
+    margin: 5px;
+    font-size: 14px;
+}
+.twit-logo {
+    width: 100%;
+    height: 5%;
+    margin: 5px auto;
+}
+.twitter-logo-box {
+    width: 30%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.news-container {
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    border: 2px solid lightgrey;
+    margin: 30px auto;
+    background-color: white;
+    color: black
+}
+.news-heading {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.news-item {
+    width: 100%;
+    height: 10%;
+    display: inline-block;
+    border: 1px solid grey;
+}
+.news-left {
+    width: 75%;
+    overflow: hidden;
+    float: left;
+}
+.news-left p {
+    font-size: 14px;
+    margin: 15px 5px;
+}
+.new-right {
+    width: 25%;
+    overflow: hidden;
+    float: left;
+}
+.news-photo {
+    height: 85px;
+    width: 85px;
+    margin: 10px auto;
+}

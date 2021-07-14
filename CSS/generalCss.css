@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: verdana;
+    background-position: center;
+    background-repeat: space;
+    background-size: 150px 100px;
+}
+
+header {
+    background: #38003c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8%;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 25px;
+    padding: 35px 18px;
+    position: relative;
+}
+
+nav li a {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    z-index: 1;     
+    padding: 1em;     
+    margin: -1em
+}
+
+nav li a {
+    transition: all 0,3s ease 0s;
+}
+nav li a:hover {
+    color: #e90052;
+}
+
+.login-button{ 
+    padding: 13px 26px;
+    color: white;
+    background-color: #e90052;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    -webkit-appearance: none;
+}
+.login-button:hover {
+    background-color: #38003c;
+    border: 1px solid #e90052;
+}
+
+.logout-button {
+    padding: 9px 11px;
+    color: white;
+    background-color: #e90052;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0,3s ease 0s;
+    font-size: 16px;
+    float: right;
+    margin-top: 10px;
+    -webkit-appearance: none;
+}
+.logout-button:hover {
+    background-color: #38003c;
+    border: 1px solid #e90052;
+}
+
+.user-login {
+    text-align: center;
+}
+
+.side-menu {
+    width: 95%;
+    height: 95%;
+    background-color: #38003c;
+    margin: 8px;
+    border-radius: 5px;
+    color: white;
+    overflow: hidden;
+}
+
+.uNameText {
+    font-size: 21px;
+    color: white;
+    margin: auto 10px;
+    vertical-align: middle;
+    float: left;
+    text-decoration: none;
+}
+.uNameText:hover {
+    color: #e90052;
+}
+
+@media only screen and (max-width: 1500px) {
+    nav li {
+        display: inline-block;
+        margin: 0 25px;
+        padding: 25px 15px;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 1300px) {
+    nav li {
+        display: inline-block;
+        margin: 0 15px;
+        padding: 20px 10px;
+        position: relative;
+    }
+    .login-button {
+        padding: 10px 20px;
+    }
+}
+@media only screen and (max-width: 1150px) {
+    nav li {
+        display: inline-block;
+        margin: 0 10px;
+        padding: 15px 5px;
+        position: relative;
+    }
+    .login-button {
+        padding: 10px 17px;
+    }
+}
+@media only screen and (max-width: 1050px) {
+    nav li {
+        display: inline-block;
+        margin: 0 4px;
+        padding: 8px 3px;
+        position: relative;
+    }
+    .login-button {
+        padding: 10px 14px;
+    }
+    .logo img {
+        width: 200px;
+        height: 100px;
+    }
+}
+
+

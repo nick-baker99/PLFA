@@ -1,0 +1,149 @@
+body {
+    background-image: url("../images/background_images/login_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.login-box {
+    background-color: #38003c;
+    width: 40%;
+    height: 45%;
+    margin: 10% auto 0 auto;
+    overflow: auto;
+    text-align: center;
+    opacity: 0.99;
+    -webkit-appearance: none;
+}
+
+.login-form {
+    margin: 11% auto 2% auto;
+    display: inline-block;
+}
+
+.form-items {
+    margin: auto;
+}
+
+::placeholder {
+    color: white;
+}
+input[type=text], input[type=password] {
+    margin: 0 6px;
+    padding: 8px 16px;
+    width: 180px;
+    height: 43px;
+    border: 0px none;
+    background-color: #38003c;
+    border-bottom: 2px solid #e90052;
+    border-radius: 4%;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: white;
+}
+input[type=text]:hover, input[type=password]:hover {
+    border-bottom: 2px solid #80002d;
+}
+input[type=text]:focus, input[type=password]:focus {
+    outline: none;
+    border-bottom: 4px solid #e90052;
+    border-radius: 0;
+}
+input[type=text]:focus::placeholder, input[type=password]:focus::placeholder {
+    color: transparent;
+    transition: 0.25s;
+}
+
+.log-btn {
+    margin: 15px 5px;
+    width: 98%;
+    height: 45px;
+    padding: 7px 18px;
+    color: white;
+    background-color: #e90052;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-appearance: none;
+}
+.log-btn:hover {
+    background-color: #80002d;
+    -webkit-appearance: none;
+}
+.log-btn:focus {
+    outline: none;
+}
+
+.create-acc-msg {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px; 
+}
+
+.create-acc-btn {
+    margin: 15px 5px;
+    width: 30%;
+    height: 40px;
+    padding: 7px 18px;
+    color: white;
+    background-color: #e90052;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-appearance: none;
+}
+.create-acc-btn:hover {
+    background-color: #80002d;
+}
+
+@media only screen and (max-width: 1400px) {
+    .login-box {
+        width: 50%;
+    }
+}
+/* Mobiles */
+@media only screen and (max-width: 780px) {
+    .login-box {
+        width: 80%;
+        height: 55%;
+        margin-top: 50px;
+    }
+    .log-btn {
+        width: 50%;
+    }
+    .create-acc-btn {
+        width: 35%;
+        height: 45px;
+    }
+}
+@media only screen and (max-height: 850px) {
+    .login-box {
+        height: 50%;
+    }
+}
+@media only screen and (max-height: 700px) {
+    .login-box {
+        margin-top: 50px;
+        height: 60%;
+    }
+}@media only screen and (max-height: 500px), screen and (max-width: 500px) {
+    .login-box {
+        margin-top: 20px;
+        height: 55%;
+    }
+    .logo img {
+        height: 60px;
+        width: 150px;
+    }
+}
+.login-fail {
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+}
