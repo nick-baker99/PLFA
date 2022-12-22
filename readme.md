@@ -2,7 +2,7 @@
 The Premier League Fan App (PLFA) is a web application that has been designed to provide footall fans with a platform that can be used to socialise with other football fans,
 partake in a fantasy football competition and read relevant football data.
 
-This project was created during the final year of my Bsc Computing course to contribute towards my final year project. It is only a concept web application and does not exist online. In the future intend to come back to this project and produce an improved version once I have expanded my web development abilties.
+This project was created during the final year of my BSc Computing course to contribute towards my final year project. It is only a concept web application and does not exist online. In the future intend to come back to this project and produce an improved version once I have expanded my web development abilties.
 
 ## Installation guide
 To run this application a local apache server can be used. This will require external software to be installed, when developing this software I used 'XAMPP'.
